@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/wrap_loading_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:clipToPadding="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:gravity="top|center_horizontal"
+        >
+        <com.eftimoff.androipathview.PathView
+            android:id="@+id/rain_drop"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            app:pathColor="#7383BF"
+            android:scaleY="1"
+            app:pathWidth="3dp"
+            app:svg="@raw/ic_cloud" />
+    </LinearLayout>
+
+</LinearLayout>
